@@ -24,10 +24,8 @@ let minu = 0;
 
 
 function preload(){
-  //let nurl = "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=8b6096d9ea2b4fd69068770914ec57e3";
   loadJSON("news.json", newsData);
-  let lbkurl = "https://api.openweathermap.org/data/2.5/weather?q=Lubbock&appid=201fecd1717242e4163b575f13bf6cf9&units=metric"
-  loadJSON(lbkurl, lbkData);
+  loadJSON("weather.json", lbkData);
 }
 
 function setup(){
