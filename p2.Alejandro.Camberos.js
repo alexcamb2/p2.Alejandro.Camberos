@@ -1,7 +1,7 @@
 //Top row of rectangles
 let rectangles = [];
 let x = 555, xr = 530;
-let y = 185, yr = 470;
+let y = 185, yr = 530;
 let w = 180, wr = 150;
 let h = 150, hr = 400;
 let c = 30;
