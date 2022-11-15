@@ -1,14 +1,14 @@
 //Top row of rectangles
 let rectangles = [];
 let x = 555, xr = 530;
-let y = 130, yr = 470;
+let y = 185, yr = 530;
 let w = 180, wr = 150;
 let h = 150, hr = 400;
 let c = 30;
 
 let circles = [];
 let cx = 1030;
-let cy = 660;
+let cy = 710;
 let cd = 70;
 let cd2 = 70;
 
@@ -51,7 +51,7 @@ function draw() {
   drawingContext.shadowBlur = 32;
   drawingContext.shadowColor = color(207,7,99); 
   tint(255, 80); 
-  image(capture, 427, 40, 680, 680);
+  image(capture, 427, 95, 680, 680);
   ct = int(millis()/1000);
  
 
