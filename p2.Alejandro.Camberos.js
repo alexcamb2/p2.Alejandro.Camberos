@@ -25,7 +25,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(displayWidth,displayHeight-111);
+  createCanvas(displayWidth,displayHeight);
   colorMode(HSB,360,0,100);
   rectMode(CENTER);
   noFill();
