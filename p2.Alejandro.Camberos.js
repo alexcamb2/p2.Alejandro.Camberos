@@ -1,14 +1,14 @@
 //Top row of rectangles
 let rectangles = [];
-let x = 555, xr = 530;
-let y = 185, yr = 530;
+let x = 150, xr = 140;
+let y = 120, yr = 450;
 let w = 180, wr = 150;
 let h = 150, hr = 400;
 let c = 30;
 
 let circles = [];
-let cx = 1030;
-let cy = 710;
+let cx = 650;
+let cy = 600;
 let cd = 70;
 let cd2 = 70;
 
@@ -25,7 +25,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(displayWidth,displayHeight);
+  createCanvas(725,725);
   colorMode(HSB,360,0,100);
   rectMode(CENTER);
   noFill();
@@ -51,7 +51,7 @@ function draw() {
   drawingContext.shadowBlur = 32;
   drawingContext.shadowColor = color(207,7,99); 
   tint(255, 80); 
-  image(capture, 427, 95, 680, 680);
+  image(capture, 20, 30, 680, 680);
   ct = int(millis()/1000);
  
 
