@@ -19,10 +19,6 @@ let lbk_temp;
 let ntemp, ntemp1, ntemp2;
 let minu = 0;
 
-
-
-
-
 function preload(){
   loadJSON("news.json", newsData);
   loadJSON("weather.json", lbkData);
@@ -100,7 +96,7 @@ function draw() {
   text("Lubbock", rectangles[2].x-65,rectangles[2].y-35);
   textSize(40)
   text(round(lbk_temp) + "° C", rectangles[2].x-25,rectangles[2].y+15);
-  //image(lbk_desc, rectangles[2].x, rectangles[2].y-35, 70, 70);
+  image(lbk_desc, rectangles[2].x+15, rectangles[2].y-80, 70, 70);
 
   //Personalization stuff
   strokeWeight(2);
@@ -257,7 +253,7 @@ function formatting(num){
 function lbkData(data){
   // Get current temperature
   lbk_temp = data.main.temp;
-  //lbk_desc = loadImage("https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png");
+  lbk_desc = loadImage("https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png");
 }
 
 function newsData(data){
