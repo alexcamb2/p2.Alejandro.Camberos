@@ -51,7 +51,7 @@ function draw() {
   drawingContext.shadowBlur = 32;
   drawingContext.shadowColor = color(207,7,99); 
   tint(255, 80); 
-  image(capture, 427, 135, 680, 680);
+  image(capture, 427, 95, 680, 680);
   ct = int(millis()/1000);
  
 
