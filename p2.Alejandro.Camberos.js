@@ -93,7 +93,7 @@ function draw() {
   //weather
   strokeWeight(2);
   textSize(20);
-  text("Lubbock LOAD", rectangles[2].x-65,rectangles[2].y-35);
+  text("Lubbock", rectangles[2].x-65,rectangles[2].y-35);
   textSize(40)
   text(round(lbk_temp) + "° C", rectangles[2].x-25,rectangles[2].y+15);
   image(lbk_desc, rectangles[2].x+15, rectangles[2].y-80, 70, 70);
