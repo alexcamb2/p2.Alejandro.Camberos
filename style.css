@@ -1,8 +1,33 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #00008B;
+  text-align: center;
+  
 }
 
 canvas {
   display: block;
 }
+
+.column {
+  float: right;
+  width: 50%;
+  margin-top: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.center{
+  margin-left: 100px;
+  margin-right: auto;
+  width: 50%;
+  text-align: centers;
+}
+
+img{
+  border:5px solid white
+}
+
+iframe{
+  border:5px solid white}
